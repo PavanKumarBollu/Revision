@@ -82,8 +82,8 @@ class  Switch
 		{
 			case 19 -> "Pavan Kumar Bollu";
 			case 20 -> "Pavan Kumar Yadav";
-			case 21 -> "Bollu Pavan Kumar";
-		}
+			default -> "Bollu Pavan Kumar";
+		};
 
 		System.out.println("Value Which Switch Returened is " + result );
 
