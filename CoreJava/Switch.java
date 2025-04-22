@@ -54,5 +54,21 @@ class  Switch
 				break;
 
 		}
+		System.out.println("Example Four ");
+		int day = 2;
+		switch(day)
+		{
+			case 1:
+			case 2:
+			case 3:
+				System.out.println("3 Cases are Groupped Together");
+				break;
+			default:
+				System.out.println("Default Case");
+				break;
+		}
+
+
+
 	}
 }

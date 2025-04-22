@@ -35,7 +35,7 @@ class  Switch
 		System.out.println("Example Three ");
 		enum direction {NORTH, SOUTH, EAST,WEST};
 		direction dir =	direction.NORTH;
-		switch(direction)
+		switch(dir)
 		{
 			case NORTH:
 				System.out.println("North");
@@ -54,5 +54,21 @@ class  Switch
 				break;
 
 		}
+		System.out.println("Example Four ");
+		int day = 3;
+		switch(day)
+		{
+			case 1:
+			case 2:
+			case 3:
+				System.out.println("3 Cases are Groupped Together");
+				break;
+			default:
+				System.out.println("Default Case");
+				break;
+		}
+
+
+
 	}
 }
