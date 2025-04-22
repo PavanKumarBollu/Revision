@@ -21,6 +21,7 @@ class  Switch
 				break;
 		}
 		
+		System.out.println("Example Two ");
 
 		switch("Pavan")
 		{
