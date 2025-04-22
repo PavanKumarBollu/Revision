@@ -89,10 +89,12 @@ class  Switch
 
 
 		System.out.println("Example Seven ");
+		int obj = 100;
 		switch(obj)
 		{
 			case String i -> System.out.println("String Case: " + i);
 			case Integer j -> System.out.println("Integer Case : " + j);
+			default -> System.out.println("Pattern matcing Switch");
 		}
 
 	}

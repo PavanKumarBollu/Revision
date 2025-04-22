@@ -89,6 +89,7 @@ class  Switch
 
 
 		System.out.println("Example Seven ");
+		Object obj = 100;
 		switch(obj)
 		{
 			case String i -> System.out.println("String Case: " + i);
