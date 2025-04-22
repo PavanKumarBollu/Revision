@@ -34,8 +34,8 @@ class  Switch
 		}
 		System.out.println("Example Three ");
 		enum direction {NORTH, SOUTH, EAST,WEST};
-		direction dir =	direction.NORTH
-		switch(direction)
+		direction dir =	direction.NORTH;
+		switch(dir)
 		{
 			case NORTH:
 				System.out.println("North");
