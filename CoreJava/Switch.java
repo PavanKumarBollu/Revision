@@ -32,5 +32,27 @@ class  Switch
 				System.out.println("Default");
 				break;
 		}
+		System.out.println("Example Three ");
+		enum direction {NORTH, SOUTH, EAST,WEST};
+		direction dir =	direction.NORTH
+		switch(direction)
+		{
+			case NORTH:
+				System.out.println("North");
+				break;
+			case SOUTH:
+				System.out.println("SOUTH");
+				break;
+			case EAST:
+				System.out.println("EAST");
+				break;
+			case WEST:
+				System.out.println("West");
+				break;
+			default:
+				System.out.println("Default");
+				break;
+
+		}
 	}
 }
