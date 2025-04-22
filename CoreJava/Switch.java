@@ -68,6 +68,14 @@ class  Switch
 				break;
 		}
 
+		System.out.println("Switch Five");
+		switch("pavan")
+		{
+			case "pavan" -> System.out.println("Switch Expression ");
+			default->	System.out.println("Default Case");
+		}
+
+
 
 
 	}

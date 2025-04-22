@@ -55,7 +55,7 @@ class  Switch
 
 		}
 		System.out.println("Example Four ");
-		int day = 3;
+		int day = 2;
 		switch(day)
 		{
 			case 1:
@@ -67,6 +67,14 @@ class  Switch
 				System.out.println("Default Case");
 				break;
 		}
+
+		System.out.println("Switch Expression");
+		switch("pavan")
+		{
+			case "pavan" -> System.out.println("Switch Expression ");
+			default->	System.out.println("Default Case");
+		}
+
 
 
 
