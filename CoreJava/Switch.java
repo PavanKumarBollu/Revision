@@ -76,7 +76,16 @@ class  Switch
 		}
 
 
+		System.out.println("Example Six");
+		int age = 19;
+		String result = switch(age)
+		{
+			case 19 -> "Pavan Kumar Bollu";
+			case 20 -> "Pavan Kumar Yadav";
+			case 21 -> "Bollu Pavan Kumar";
+		}
 
+		System.out.println("Value Which Switch Returened is " + result );
 
 	}
 }
