@@ -87,5 +87,14 @@ class  Switch
 
 		System.out.println("Value Which Switch Returened is " + result );
 
+
+		System.out.println("Example Seven ");
+		switch(obj)
+		{
+			case String i -> System.out.println("String Case: " + i);
+			case Integer j -> System.out.println("Integer Case : " + j);
+			default -> System.out.println("Pattern matcing Switch");
+		}
+
 	}
 }
