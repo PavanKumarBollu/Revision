@@ -16,5 +16,8 @@ class InnerClass
 {
 	public static void main(String[] args) 
 	{
+		// OuterClass Object Creation
+		OuterClass outerClass = new OuterClass();
+		outerClass.dis();
 	}
 }

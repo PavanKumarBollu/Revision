@@ -1,5 +1,9 @@
 class OuterClass
 {
+	public void dis()
+	{
+		System.out.println("Outer Class Dispaly Method \nTo Prove that Class Can Have both Methods and Inner Classes");
+	}
 	class InnerClass
 	{
 		public void childDis()
