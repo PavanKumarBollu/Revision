@@ -12,6 +12,15 @@ class OuterClass
 			
 		}
 	}
+
+	static class StaticInnerClass
+	{
+		public void childDis()
+		{
+			System.out.println("StaticInnerClass ChildDisplay method ::" +  this.getClass().getName());
+			
+		}
+	}
 }
 class InnerClass 
 {
