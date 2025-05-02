@@ -23,5 +23,8 @@ class Methods
 		p1.m1(p1);//Parent
 		Parent p2 = new Child();
 		p2.m1(p2);//Child
+
+		Child c1 = new Child();
+		c1.m1(c1);
 	}
 }
