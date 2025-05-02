@@ -32,6 +32,7 @@ class InnerClass
 		OuterClass.InnerClass child = new OuterClass(). new InnerClass();
 		child.childDis();
 
-		OuterClass.StaticInnerClass staticChild = new  OuterClass.StaticInnerClass():
+		OuterClass.StaticInnerClass staticChild = new OuterClass.StaticInnerClass();
+		staticChild.childDis();
 	}
 }
