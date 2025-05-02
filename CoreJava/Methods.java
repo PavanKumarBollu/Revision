@@ -20,11 +20,11 @@ class Methods
 	public static void main(String[] args) 
 	{
 		Parent p1 = new Parent();
-		p1.m1(p1);//Parent
+		p1.m1(p1);//Parent Method With Parent Reference
 		Parent p2 = new Child();
-		p2.m1(p2);//Child
+		p2.m1(p2);//Parent Method With Child Reference
 
 		Child c1 = new Child();
-		c1.m1(c1);
+		c1.m1(c1);//Child Method With Child Reference
 	}
 }
