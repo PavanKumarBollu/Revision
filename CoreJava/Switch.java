@@ -7,6 +7,7 @@ class  Switch
 		int num = 2;
 		switch(num)
 		{
+
 			case 1:
 				System.out.println("Case-1");
 				break;
@@ -19,6 +20,7 @@ class  Switch
 			default:
 				System.out.println("Default");
 				break;
+
 		}
 		
 		System.out.println("Example Two ");
