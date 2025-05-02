@@ -17,7 +17,7 @@ class OuterClass
 	{
 		public void childDis()
 		{
-			System.out.println("RegulerInnerClass ChildDisplay method ::" +  this.getClass().getName());
+			System.out.println("StaticInnerClass ChildDisplay method ::" +  this.getClass().getName());
 			
 		}
 	}

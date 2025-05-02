@@ -31,5 +31,7 @@ class InnerClass
 		outerClass.dis();
 		OuterClass.InnerClass child = new OuterClass(). new InnerClass();
 		child.childDis();
+
+		OuterClass.StaticInnerClass staticChild = new  OuterClass.StaticInnerClass():
 	}
 }
