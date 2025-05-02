@@ -4,8 +4,8 @@ class OuterClass
 	{
 		public void childDis()
 		{
-			System.out.println("Reguler Inner Class");
-
+			System.out.println("RegulerInnerClass ChildDisplay method ::" +  this.getClass().getName());
+			
 		}
 	}
 }
