@@ -2,7 +2,7 @@ class OuterClass
 {
 	public void dis()
 	{
-		System.out.println("Outer Class Dispaly Method \nTo Prove that Class Can Have both Methods and Inner Classes");
+		System.out.println("Outer Class Dispaly Method \nTo Prove that Class Can Have both Methods and Inner Classes.\n\n\n");
 	}
 	class InnerClass
 	{
@@ -13,9 +13,6 @@ class OuterClass
 		}
 	}
 }
-
-
-
 class InnerClass 
 {
 	public static void main(String[] args) 
@@ -23,5 +20,7 @@ class InnerClass
 		// OuterClass Object Creation
 		OuterClass outerClass = new OuterClass();
 		outerClass.dis();
+		OuterClass.InnerClass child = new OuterClass(). new InnerClass();
+		child.childDis();
 	}
 }
