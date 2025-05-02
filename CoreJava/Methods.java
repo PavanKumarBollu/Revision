@@ -22,6 +22,6 @@ class Methods
 		Parent p1 = new Parent();
 		p1.m1(p1);//Parent
 		Parent p2 = new Child();
-		p2.m1(p2);
+		p2.m1(p2);//Child
 	}
 }
