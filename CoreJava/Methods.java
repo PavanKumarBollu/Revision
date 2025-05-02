@@ -2,7 +2,7 @@ class Parent
 {
 	public static void m1(Object obj)
 	{
-		System.out.println("Parent Method Got Called By The Reference");
+		System.out.println("Parent Method Got Called By The Reference" + obj.getClass().getName());
 
 	}
 
