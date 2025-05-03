@@ -55,7 +55,7 @@ class ArraysMethods
 
 
 		System.out.println("Copying Specific Range :  ");
-		int[] arr6 = Arrays.copyOfRange(arr4,0,6);
+		int[] arr6 = Arrays.sort(Arrays.copyOfRange(arr4,0,6));
 		System.out.println("copied Range Elements : " + Arrays.toString(arr6));
 
 
