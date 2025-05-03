@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 class ArraysMethods 
 {
 	public static void main(String[] args) 
@@ -59,6 +59,14 @@ class ArraysMethods
 		Arrays.sort(arr6);
 		System.out.println("copied Range Elements : " + Arrays.toString(arr6));
 
+		System.out.println("Converting the Array Into List : ");
+		List<String> l=	Arrays.asList(arr4);
+
+		System.out.println("Copied List elements are :  ");
+		for(String i: l)
+		{
+			System.out.print(i + " ");
+		}
 
 		
 		
