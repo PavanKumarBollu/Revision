@@ -9,5 +9,13 @@ class ArraysMethods
 		System.out.println("Array After Sorting : " + Arrays.toString(arr1));
 		System.out.println(" ");
 		System.out.println(" ");
+
+		System.out.println("BinarySearch() method : for finding the elements in the sorted Array ");
+		int index = Arrays.binarySearch(4);
+
+			
+		
+		
+		
 	}
 }
