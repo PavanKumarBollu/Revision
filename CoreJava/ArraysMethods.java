@@ -72,9 +72,9 @@ class ArraysMethods
 		System.out.println("Arrays.setAll(array, lamdaExpresion) Method ");
 
 		int arr7 = new int[7];
-		Arrays.setAll(arr7, i->{i * 2});
+		Arrays.setAll(arr7, i->i * 2);
 
-		System.out.println("After Arrays.setAll() method Execution :  " Arrays.toString(arr7));
+		System.out.println("After Arrays.setAll() method Execution :  " + Arrays.toString(arr7));
 		
 		
 	}
