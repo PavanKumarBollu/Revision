@@ -62,10 +62,10 @@ class ArraysMethods
 		System.out.println("Converting the Array Into List : ");
 		List l=	Arrays.asList(arr4);
 
-		System.out.println("Copied List elements are :  ");
+		System.out.println("Copied List elements are :  " + l);
 
-
-		
+		System.out.println("Arrays Stream Object to Access the elements ");
+		Arrays.stream(arr4).forEach(" " + System.out::print );
 		
 		
 	}

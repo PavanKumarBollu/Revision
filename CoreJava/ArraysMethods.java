@@ -60,15 +60,12 @@ class ArraysMethods
 		System.out.println("copied Range Elements : " + Arrays.toString(arr6));
 
 		System.out.println("Converting the Array Into List : ");
-		List<String> l=	Arrays.asList(arr4);
+		List l=	Arrays.asList(arr4);
 
-		System.out.println("Copied List elements are :  ");
-		for(String i: l)
-		{
-			System.out.print(i + " ");
-		}
+		System.out.println("Copied List elements are :  " + l);
 
-		
+		System.out.println("Arrays Stream Object to Access the elements ");
+		Arrays.stream(arr4).forEach(System.out::print );
 		
 		
 	}
