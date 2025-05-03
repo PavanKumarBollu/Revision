@@ -11,7 +11,7 @@ class ArraysMethods
 		System.out.println(" ");
 
 		System.out.println("BinarySearch() method : for finding the elements in the sorted Array ");
-		int index = Arrays.binarySearch(4);
+		int index = Arrays.binarySearch(arr1, 4);
 		System.out.println("Index of the 4 is : " + index);
 
 			
