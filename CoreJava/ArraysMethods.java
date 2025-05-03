@@ -47,6 +47,9 @@ class ArraysMethods
 
 		System.out.println("Copying the elements form the array4 : " );
 		int[] arr5 =new int[arr4.length];
+		System.out.println("Array Before Coping : " + Arrays.toString(arr5));
+		arr5=	Arrays.copyOf(arr4, arr5.length);
+		System.out.println("Array After  Coping : " + Arrays.toString(arr5));
 
 
 		

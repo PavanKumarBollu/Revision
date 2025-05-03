@@ -41,7 +41,15 @@ class ArraysMethods
 		System.out.println(" ");
 		System.out.println(" ");
 			
+		
 
+		int [] arr4 = new int[]{2,3,1,4,5,6,73, 54,232,124,64,75,34,23,32,75,23,34,5432,636,74,234,343,252,231,123,124,125,126,127,128};
+
+		System.out.println("Copying the elements form the array4 : " );
+		int[] arr5 =new int[arr4.length];
+		System.out.println("Array Before Coping : " + Arrays.toString(arr5));
+		arr5=	Arrays.copy(arr4, arr5.length);
+		System.out.println("Array After  Coping : " + Arrays.toString(arr5));
 
 
 		
