@@ -14,6 +14,10 @@ class ArraysMethods
 		int index = Arrays.binarySearch(arr1, 4);
 		System.out.println("Index of the 4 is : " + index);
 
+		int[] arr2 = new int[]{1,2,3,4,5};
+
+		System.out.println("Comparing the Arrays : " + Arrays.equals(arr1, arr2));
+
 			
 		
 		
