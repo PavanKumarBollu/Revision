@@ -24,9 +24,9 @@ class ArraysMethods
 
 		int[] arr3 = new int[5];
 		System.out.println("Filling the Arrays with 5 as a default value in every location : ");
-		System.out.println("Before Filling array :  " Arrays.toString(arr3));
+		System.out.println("Before Filling array :  "+ Arrays.toString(arr3));
 		Arrays.fill(arr3, 5);
-		System.out.println("After Filling array :  " Arrays.toString(arr3));
+		System.out.println("After Filling array :  " + Arrays.toString(arr3));
 		System.out.println(" ");
 		System.out.println(" ");
 			
