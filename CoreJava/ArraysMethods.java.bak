@@ -50,6 +50,13 @@ class ArraysMethods
 		System.out.println("Array Before Coping : " + Arrays.toString(arr5));
 		arr5=	Arrays.copyOf(arr4, arr5.length);
 		System.out.println("Array After  Coping : " + Arrays.toString(arr5));
+		System.out.println(" ");
+		System.out.println(" ");
+
+
+		System.out.println("Copying Specific Range :  ");
+		int[] arr6 = Arrays.copyOfRange(arr4,0,6);
+		System.out.println("copied Range Elements : " + Arrays.toString(Arrays.sort(arr6)));
 
 
 		
